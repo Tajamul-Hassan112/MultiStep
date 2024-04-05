@@ -1,4 +1,2 @@
-
-
 # MultiStep
 A RESPONSIVE MULTISTEP FORM
