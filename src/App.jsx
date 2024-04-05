@@ -6,7 +6,7 @@ import Right from './Components/Right';
 import Geo from './Components/Geo';
 import Way from './Components/Way';
 import Circle from './Components/Circle';
-import Learning from './Pages/Learning';
+import Learning from './Components/Learning';
 import { useState } from 'react';
 
 const App = () => {

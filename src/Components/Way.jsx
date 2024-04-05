@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaStar, FaArrowLeft } from 'react-icons/fa';
 import ProgressLine from './ProgressLine';
-
+import Complete from  "/Images/complete.jpg"
 const Way = ({ onBack, onNext, currentPage }) => {
   return (
     <div className="max-w-4xl mx-auto py-8 px-4">
@@ -15,7 +15,7 @@ const Way = ({ onBack, onNext, currentPage }) => {
       <div className="flex justify-center items-center h-screen">
         <div className="flex items-center">
           <div className="mb-6 mr-6">
-            <img src="/src/assets/Images/complete.jpg" alt="Complete" className="w-full h-auto max-w-xs md:max-w-none md:w-64 md:h-64" />
+            <img src={Complete} alt="Complete" className="w-full h-auto max-w-xs md:max-w-none md:w-64 md:h-64" />
           </div>
           <div>
             <div className="flex flex-col items-start mb-2">

@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaArrowLeft } from 'react-icons/fa';
 import ProgressLine from './ProgressLine';
-
+import Weight from  "/Images/weight.jpg"
 const Right = ({ onBack, onNext, currentPage }) => {
   return (
     <div className="flex justify-center items-center flex-col">
@@ -12,7 +12,7 @@ const Right = ({ onBack, onNext, currentPage }) => {
       </div>
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center max-w-4xl h-screen"> 
         <div className="right-img mr-0 md:mr-8 flex-shrink-0 max-w-2xl"> 
-          <img src="/src/assets/Images/weight.jpg" alt="" className="h-[400px] w-full"/>
+          <img src={Weight} alt="" className="h-[400px] w-full"/>
         </div>
         <div className="left-content text-center md:text-left flex-1"> {/* Added flex-1 to make it take remaining space */}
           <h1 className="text-3xl font-semibold mb-4">You're in the right place</h1>

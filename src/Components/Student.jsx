@@ -3,6 +3,7 @@ import React from "react";
 import firstData from "./data.jsx";
 import ProgressLine from "./ProgressLine.jsx";
 
+
 const Student = ({ onNext, currentPage }) => {
   return (
     <div className="container mx-auto  mt-5 px-4 flex flex-col justify-center items-center">
